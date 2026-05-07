@@ -1,0 +1,78 @@
+[ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 4; @symbol_classdef = [QuickTunerDelegate,4,6,24]; @symbol_extends<0> = [WatchUi,4,33,40]; @symbol_extends<1> = [BehaviorDelegate,4,41,57]; ]
+class QuickTunerDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 5; @position = 16; @symbol_vardef = [_view,5,16,21]; @symbol_type<0> = [QuickTunerView,5,25,39]; ]
+    private
+    var _view as QuickTunerView;
+    [ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [view,7,24,28]; @symbol_param<0>_type<0> = [QuickTunerView,7,32,46]; ]
+    function initialize(view as QuickTunerView) as Void {
+_Users_olibx_Desktop_DeveloperKeyGarmin_QuickTuner_source_QuickTunerDelegate_mc_7_48_10_4_start:
+[ "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc" 8 8 ]
+        symbol [ BehaviorDelegate %tmp.2 8 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 8 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc" 9 8 ]
+        %tmp.4 = lgetv %view;
+        symbol [ view %tmp.4 9 16 20 ];
+        symbol [ _view ? 9 8 13 ];
+        putv self :_view %tmp.4;
+_Users_olibx_Desktop_DeveloperKeyGarmin_QuickTuner_source_QuickTunerDelegate_mc_7_48_10_4_stop:
+    }
+    [ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 12; @symbol_functiondef = [onNextPage,12,13,23]; @symbol_return<0> = [Boolean,12,29,36]; ]
+    function onNextPage() as Boolean {
+_Users_olibx_Desktop_DeveloperKeyGarmin_QuickTuner_source_QuickTunerDelegate_mc_12_37_15_4_start:
+[ "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc" 13 8 ]
+        symbol [ _view %tmp.2 13 8 13 ];
+        %tmp.2 = getv ? :_view;
+        symbol [ prevNote %tmp.3 13 14 22 ];
+        %tmp.3 = getv function %tmp.2 :prevNote;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc" 14 8 ]
+        %tmp.4 = true;
+        ret %tmp.4;
+_Users_olibx_Desktop_DeveloperKeyGarmin_QuickTuner_source_QuickTunerDelegate_mc_12_37_15_4_stop:
+    }
+    [ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 17; @symbol_functiondef = [onPreviousPage,17,13,27]; @symbol_return<0> = [Boolean,17,33,40]; ]
+    function onPreviousPage() as Boolean {
+_Users_olibx_Desktop_DeveloperKeyGarmin_QuickTuner_source_QuickTunerDelegate_mc_17_41_20_4_start:
+[ "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc" 18 8 ]
+        symbol [ _view %tmp.2 18 8 13 ];
+        %tmp.2 = getv ? :_view;
+        symbol [ nextNote %tmp.3 18 14 22 ];
+        %tmp.3 = getv function %tmp.2 :nextNote;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc" 19 8 ]
+        %tmp.4 = true;
+        ret %tmp.4;
+_Users_olibx_Desktop_DeveloperKeyGarmin_QuickTuner_source_QuickTunerDelegate_mc_17_41_20_4_stop:
+    }
+    [ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 22; @symbol_functiondef = [onSelect,22,13,21]; @symbol_return<0> = [Boolean,22,27,34]; ]
+    function onSelect() as Boolean {
+_Users_olibx_Desktop_DeveloperKeyGarmin_QuickTuner_source_QuickTunerDelegate_mc_22_35_25_4_start:
+[ "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc" 23 8 ]
+        symbol [ _view %tmp.2 23 8 13 ];
+        %tmp.2 = getv ? :_view;
+        symbol [ togglePlay %tmp.3 23 14 24 ];
+        %tmp.3 = getv function %tmp.2 :togglePlay;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc" 24 8 ]
+        %tmp.4 = true;
+        ret %tmp.4;
+_Users_olibx_Desktop_DeveloperKeyGarmin_QuickTuner_source_QuickTunerDelegate_mc_22_35_25_4_stop:
+    }
+}
+[ @file = "/Users/olibx/Desktop/DeveloperKeyGarmin/QuickTuner/source/QuickTunerDelegate.mc"; @line = 1; ]
+<init> {
+}
