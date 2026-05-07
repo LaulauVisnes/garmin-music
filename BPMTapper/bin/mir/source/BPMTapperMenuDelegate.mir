@@ -1,0 +1,113 @@
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc"; @line = 5; @symbol_classdef = [BPMTapperMenuDelegate,5,6,27]; @symbol_extends<0> = [WatchUi,5,36,43]; @symbol_extends<1> = [MenuInputDelegate,5,44,61]; ]
+class BPMTapperMenuDelegate extends WatchUi.MenuInputDelegate {
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc"; @line = 6; @position = 8; @symbol_vardef = [app,6,8,11]; @symbol_type<0> = [BPMTapperApp,6,15,27]; ]
+    var app as BPMTapperApp;
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
+    function initialize() as Void {
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_8_26_11_4_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc" 9 8 ]
+        symbol [ MenuInputDelegate %tmp.2 9 8 25 ];
+        %tmp.2 = getv ? :MenuInputDelegate;
+        symbol [ initialize %tmp.3 9 26 36 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc" 10 8 ]
+        %tmp.4 = self;
+        symbol [ getApp %tmp.5 10 14 20 ];
+        %tmp.5 = getv function %tmp.4 :getApp;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        %tmp.7 = as %tmp.6 BPMTapperApp;
+        symbol [ BPMTapperApp %tmp.7 10 26 38 ];
+        symbol [ app ? 10 8 11 ];
+        putv self :app %tmp.7;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_8_26_11_4_stop:
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc"; @line = 13; @symbol_functiondef = [onMenuItem,13,13,23]; @symbol_param<0> = [item,13,24,28]; @symbol_param<0>_type<0> = [Symbol,13,32,38]; ]
+    function onMenuItem(item as Symbol) as Void {
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_13_48_23_4_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc" 14 8 ]
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_14_8_22_8_if_stmt:
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 14 12 16 ];
+        %tmp.3 = const :toggle_vibration;
+        symbol [ toggle_vibration %tmp.3 14 21 37 const ];
+        %tmp.4 = eq %tmp.1 %tmp.3;
+        bf %tmp.4 @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_14_8_22_8_if_false;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_14_8_22_8_if_true:
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_14_39_17_8_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc" 15 12 ]
+        symbol [ app %tmp.5 15 12 15 ];
+        %tmp.5 = getv self :app;
+        symbol [ app %tmp.7 15 36 39 ];
+        %tmp.7 = getv ? :app;
+        symbol [ vibrationEnabled %tmp.8 15 40 56 ];
+        %tmp.8 = getv %tmp.7 :vibrationEnabled;
+        %tmp.9 = not %tmp.8;
+        symbol [ vibrationEnabled ? 15 16 32 ];
+        putv %tmp.5 :vibrationEnabled %tmp.9;
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc" 16 12 ]
+        symbol [ WatchUi %tmp.10 16 12 19 ];
+        %tmp.10 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.11 16 20 33 ];
+        %tmp.11 = getv function %tmp.10 :requestUpdate;
+        invoke %tmp.10 %tmp.11();
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_14_39_17_8_stop:
+        goto @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_14_8_22_8_if_end;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_14_8_22_8_if_false:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc" 17 15 ]
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_17_15_22_8_if_stmt:
+        %tmp.12 = lgetv %item;
+        symbol [ item %tmp.12 17 19 23 ];
+        %tmp.14 = const :reset_bpm;
+        symbol [ reset_bpm %tmp.14 17 28 37 const ];
+        %tmp.15 = eq %tmp.12 %tmp.14;
+        bf %tmp.15 @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_17_15_22_8_if_end;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_17_15_22_8_if_true:
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_17_39_22_8_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc" 18 12 ]
+        symbol [ app %tmp.16 18 12 15 ];
+        %tmp.16 = getv self :app;
+        %tmp.17 = null;
+        symbol [ currentBPM ? 18 16 26 ];
+        putv %tmp.16 :currentBPM %tmp.17;
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc" 19 12 ]
+        symbol [ app %tmp.18 19 12 15 ];
+        %tmp.18 = getv self :app;
+        %tmp.19 = 0;
+        symbol [ tapCount ? 19 16 24 ];
+        putv %tmp.18 :tapCount %tmp.19;
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc" 20 12 ]
+        symbol [ app %tmp.20 20 12 15 ];
+        %tmp.20 = getv self :app;
+        %tmp.21 = null;
+        symbol [ lastTapTime ? 20 16 27 ];
+        putv %tmp.20 :lastTapTime %tmp.21;
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc" 21 12 ]
+        symbol [ WatchUi %tmp.22 21 12 19 ];
+        %tmp.22 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.23 21 20 33 ];
+        %tmp.23 = getv function %tmp.22 :requestUpdate;
+        invoke %tmp.22 %tmp.23();
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_17_39_22_8_stop:
+        goto @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_17_15_22_8_if_end;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_17_15_22_8_if_end:
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_14_8_22_8_if_end:
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperMenuDelegate_mc_13_48_23_4_stop:
+    }
+}
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperMenuDelegate.mc"; @line = 1; ]
+<init> {
+}

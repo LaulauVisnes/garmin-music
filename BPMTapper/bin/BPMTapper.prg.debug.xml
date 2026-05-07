@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/Users/olibx/OlibGarmin/BPMTapper/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperApp.mc" id="1" lineNum="5" parent="globals/BPMTapperApp" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/bin/gen/006-B4375-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435472" symbol="&lt;init&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="3" lineNum="7" parent="globals/BPMTapperDelegate" pc="268435492" symbol="&lt;init&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="4" lineNum="6" parent="globals/BPMTapperView" pc="268435504" symbol="&lt;init&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperApp.mc" id="5" lineNum="11" parent="globals/BPMTapperApp" pc="268435516" symbol="onStart"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperApp.mc" id="6" lineNum="17" parent="globals/BPMTapperApp" pc="268435519" symbol="getInitialView"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperApp.mc" id="6" lineNum="18" parent="globals/BPMTapperApp" pc="268435522" symbol="getInitialView"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperApp.mc" id="6" lineNum="19" parent="globals/BPMTapperApp" pc="268435542" symbol="getInitialView"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperApp.mc" id="6" lineNum="20" parent="globals/BPMTapperApp" pc="268435564" symbol="getInitialView"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperApp.mc" id="7" lineNum="7" parent="globals/BPMTapperApp" pc="268435579" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperApp.mc" id="7" lineNum="8" parent="globals/BPMTapperApp" pc="268435581" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperApp.mc" id="8" lineNum="14" parent="globals/BPMTapperApp" pc="268435594" symbol="onStop"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="9" lineNum="101" parent="globals/BPMTapperDelegate" pc="268435597" symbol="vibrate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="9" lineNum="102" parent="globals/BPMTapperDelegate" pc="268435600" symbol="vibrate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="9" lineNum="103" parent="globals/BPMTapperDelegate" pc="268435615" symbol="vibrate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="9" lineNum="104" parent="globals/BPMTapperDelegate" pc="268435650" symbol="vibrate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="9" lineNum="106" parent="globals/BPMTapperDelegate" pc="268435668" symbol="vibrate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="28" parent="globals/BPMTapperDelegate" pc="268435681" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="29" parent="globals/BPMTapperDelegate" pc="268435684" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="32" parent="globals/BPMTapperDelegate" pc="268435696" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="33" parent="globals/BPMTapperDelegate" pc="268435742" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="34" parent="globals/BPMTapperDelegate" pc="268435751" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="35" parent="globals/BPMTapperDelegate" pc="268435759" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="36" parent="globals/BPMTapperDelegate" pc="268435778" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="39" parent="globals/BPMTapperDelegate" pc="268435788" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="42" parent="globals/BPMTapperDelegate" pc="268435804" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="43" parent="globals/BPMTapperDelegate" pc="268435824" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="10" lineNum="46" parent="globals/BPMTapperDelegate" pc="268435860" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="11" lineNum="88" parent="globals/BPMTapperDelegate" pc="268435868" symbol="startVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="11" lineNum="89" parent="globals/BPMTapperDelegate" pc="268435871" symbol="startVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="11" lineNum="90" parent="globals/BPMTapperDelegate" pc="268435878" symbol="startVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="11" lineNum="91" parent="globals/BPMTapperDelegate" pc="268435888" symbol="startVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="11" lineNum="92" parent="globals/BPMTapperDelegate" pc="268435900" symbol="startVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="11" lineNum="92" parent="globals/BPMTapperDelegate" pc="268435909" symbol="startVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="11" lineNum="93" parent="globals/BPMTapperDelegate" pc="268435917" symbol="startVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="12" lineNum="23" parent="globals/BPMTapperDelegate" pc="268435951" symbol="onTap"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="12" lineNum="24" parent="globals/BPMTapperDelegate" pc="268435953" symbol="onTap"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="12" lineNum="25" parent="globals/BPMTapperDelegate" pc="268435960" symbol="onTap"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="13" lineNum="49" parent="globals/BPMTapperDelegate" pc="268435962" symbol="onKey"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="13" lineNum="51" parent="globals/BPMTapperDelegate" pc="268435964" symbol="onKey"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="13" lineNum="52" parent="globals/BPMTapperDelegate" pc="268435977" symbol="onKey"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="13" lineNum="53" parent="globals/BPMTapperDelegate" pc="268435990" symbol="onKey"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="13" lineNum="55" parent="globals/BPMTapperDelegate" pc="268436009" symbol="onKey"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="13" lineNum="56" parent="globals/BPMTapperDelegate" pc="268436027" symbol="onKey"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="13" lineNum="58" parent="globals/BPMTapperDelegate" pc="268436037" symbol="onKey"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="13" lineNum="60" parent="globals/BPMTapperDelegate" pc="268436044" symbol="onKey"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="13" lineNum="62" parent="globals/BPMTapperDelegate" pc="268436049" symbol="onKey"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="14" lineNum="82" parent="globals/BPMTapperDelegate" pc="268436051" symbol="onSelect"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="14" lineNum="84" parent="globals/BPMTapperDelegate" pc="268436053" symbol="onSelect"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="14" lineNum="85" parent="globals/BPMTapperDelegate" pc="268436060" symbol="onSelect"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="15" lineNum="65" parent="globals/BPMTapperDelegate" pc="268436062" symbol="calculateBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="15" lineNum="66" parent="globals/BPMTapperDelegate" pc="268436065" symbol="calculateBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="15" lineNum="67" parent="globals/BPMTapperDelegate" pc="268436082" symbol="calculateBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="15" lineNum="68" parent="globals/BPMTapperDelegate" pc="268436112" symbol="calculateBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="15" lineNum="69" parent="globals/BPMTapperDelegate" pc="268436119" symbol="calculateBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="15" lineNum="70" parent="globals/BPMTapperDelegate" pc="268436143" symbol="calculateBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="15" lineNum="71" parent="globals/BPMTapperDelegate" pc="268436150" symbol="calculateBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="15" lineNum="72" parent="globals/BPMTapperDelegate" pc="268436171" symbol="calculateBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="15" lineNum="74" parent="globals/BPMTapperDelegate" pc="268436190" symbol="calculateBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="15" lineNum="75" parent="globals/BPMTapperDelegate" pc="268436198" symbol="calculateBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="16" lineNum="16" parent="globals/BPMTapperDelegate" pc="268436218" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="16" lineNum="17" parent="globals/BPMTapperDelegate" pc="268436220" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="16" lineNum="18" parent="globals/BPMTapperDelegate" pc="268436232" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="16" lineNum="19" parent="globals/BPMTapperDelegate" pc="268436241" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="16" lineNum="20" parent="globals/BPMTapperDelegate" pc="268436250" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="17" lineNum="97" parent="globals/BPMTapperDelegate" pc="268436280" symbol="stopVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperDelegate.mc" id="17" lineNum="98" parent="globals/BPMTapperDelegate" pc="268436282" symbol="stopVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="19" lineNum="18" parent="globals/BPMTapperView" pc="268436295" symbol="onLayout"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="20" lineNum="47" parent="globals/BPMTapperView" pc="268436298" symbol="setVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="20" lineNum="48" parent="globals/BPMTapperView" pc="268436300" symbol="setVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="20" lineNum="49" parent="globals/BPMTapperView" pc="268436309" symbol="setVibrating"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="21" lineNum="52" parent="globals/BPMTapperView" pc="268436321" symbol="triggerPulse"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="21" lineNum="53" parent="globals/BPMTapperView" pc="268436323" symbol="triggerPulse"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="21" lineNum="54" parent="globals/BPMTapperView" pc="268436331" symbol="triggerPulse"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="21" lineNum="55" parent="globals/BPMTapperView" pc="268436342" symbol="triggerPulse"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="22" lineNum="58" parent="globals/BPMTapperView" pc="268436373" symbol="clearPulse"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="22" lineNum="59" parent="globals/BPMTapperView" pc="268436375" symbol="clearPulse"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="22" lineNum="60" parent="globals/BPMTapperView" pc="268436383" symbol="clearPulse"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="23" lineNum="13" parent="globals/BPMTapperView" pc="268436395" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="23" lineNum="14" parent="globals/BPMTapperView" pc="268436397" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="23" lineNum="15" parent="globals/BPMTapperView" pc="268436409" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="24" lineNum="24" parent="globals/BPMTapperView" pc="268436439" symbol="onHide"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="24" lineNum="25" parent="globals/BPMTapperView" pc="268436441" symbol="onHide"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="25" lineNum="28" parent="globals/BPMTapperView" pc="268436454" symbol="onUpdate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="25" lineNum="29" parent="globals/BPMTapperView" pc="268436457" symbol="onUpdate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="25" lineNum="30" parent="globals/BPMTapperView" pc="268436465" symbol="onUpdate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="25" lineNum="32" parent="globals/BPMTapperView" pc="268436486" symbol="onUpdate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="25" lineNum="34" parent="globals/BPMTapperView" pc="268436498" symbol="onUpdate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="25" lineNum="36" parent="globals/BPMTapperView" pc="268436506" symbol="onUpdate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="25" lineNum="38" parent="globals/BPMTapperView" pc="268436547" symbol="onUpdate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="25" lineNum="39" parent="globals/BPMTapperView" pc="268436564" symbol="onUpdate"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="26" lineNum="42" parent="globals/BPMTapperView" pc="268436601" symbol="setBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="26" lineNum="43" parent="globals/BPMTapperView" pc="268436603" symbol="setBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" id="26" lineNum="44" parent="globals/BPMTapperView" pc="268436612" symbol="setBpm"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/bin/gen/006-B4375-00/source/Rez.mcgen" id="27" lineNum="13" parent="globals/Rez/Layouts" pc="268436624" symbol="MainLayout"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/bin/gen/006-B4375-00/source/Rez.mcgen" id="27" lineNum="14" parent="globals/Rez/Layouts" pc="268436634" symbol="MainLayout"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/bin/gen/006-B4375-00/source/Rez.mcgen" id="28" lineNum="19" parent="globals/Rez/Menus/MainMenu" pc="268436637" symbol="&lt;init&gt;"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/bin/gen/006-B4375-00/source/Rez.mcgen" id="29" lineNum="20" parent="globals/Rez/Menus/MainMenu" pc="268436649" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/bin/gen/006-B4375-00/source/Rez.mcgen" id="29" lineNum="21" parent="globals/Rez/Menus/MainMenu" pc="268436651" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/bin/gen/006-B4375-00/source/Rez.mcgen" id="29" lineNum="22" parent="globals/Rez/Menus/MainMenu" pc="268436663" symbol="initialize"/>
+<entry filename="/Users/olibx/OlibGarmin/BPMTapper/bin/gen/006-B4375-00/source/Rez.mcgen" id="29" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268436708" symbol="initialize"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="5" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="28" symbol="&lt;globals/BPMTapperView/&lt;&gt;showPulse&gt;"/>
+<entry id="31" method="true" symbol="MainLayout"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="27" method="true" symbol="setVibrating"/>
+<entry field="true" id="35" symbol="toggle_vibration"/>
+<entry field="true" id="33" symbol="AppName"/>
+<entry id="6" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="24" symbol="&lt;globals/BPMTapperView/&lt;&gt;isVibrating&gt;"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="22" symbol="&lt;globals/BPMTapperView/&lt;&gt;bpm&gt;"/>
+<entry field="true" id="20" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;vibrateTimer&gt;"/>
+<entry id="29" method="true" symbol="triggerPulse"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="7" object="true" symbol="BPMTapperApp"/>
+<entry id="11" module="true" symbol="Menus"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="16" method="true" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="13" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;currentBpm&gt;"/>
+<entry id="8389098" method="true" symbol="onTap"/>
+<entry id="8388987" method="true" symbol="vibrate"/>
+<entry id="17" method="true" symbol="startVibrating"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="32" object="true" symbol="MainMenu"/>
+<entry field="true" id="34" symbol="reset_bpm"/>
+<entry field="true" id="15" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;maxTaps&gt;"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="9" object="true" symbol="BPMTapperView"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="19" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;taps&gt;"/>
+<entry field="true" id="30" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="18" method="true" symbol="stopVibrating"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="12" method="true" symbol="calculateBpm"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="26" method="true" symbol="setBpm"/>
+<entry id="8389097" method="true" symbol="onKey"/>
+<entry id="8388646" module="true" object="true" symbol="Timer"/>
+<entry id="10" module="true" symbol="Layouts"/>
+<entry id="8388636" module="true" symbol="Attention"/>
+<entry field="true" id="25" symbol="&lt;globals/BPMTapperView/&lt;&gt;pulseTimer&gt;"/>
+<entry field="true" id="21" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;view&gt;"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="14" symbol="&lt;globals/BPMTapperDelegate/&lt;&gt;isVibrating&gt;"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry id="8" object="true" symbol="BPMTapperDelegate"/>
+<entry id="23" method="true" symbol="clearPulse"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435578" name="view" stackId="1" startPc="268435522"/>
+<entry endPc="268435578" name="delegate" stackId="2" startPc="268435522"/>
+<entry endPc="268435664" name="vibeData" stackId="1" startPc="268435615"/>
+<entry endPc="268435866" name="now" stackId="1" startPc="268435684"/>
+<entry endPc="268435946" name="interval" stackId="1" startPc="268435888"/>
+<entry arg="true" endPc="268435961" name="clickEvent" stackId="1" startPc="268435951"/>
+<entry arg="true" endPc="268436050" name="keyEvent" stackId="1" startPc="268435962"/>
+<entry endPc="268436213" name="diff" stackId="1" startPc="268436082"/>
+<entry endPc="268436210" name="avgDiff" stackId="2" startPc="268436119"/>
+<entry arg="true" endPc="268436279" name="view" stackId="1" startPc="268436218"/>
+<entry arg="true" endPc="268436320" name="vibrating" stackId="1" startPc="268436298"/>
+<entry arg="true" endPc="268436600" name="dc" stackId="1" startPc="268436454"/>
+<entry endPc="268436599" name="text" stackId="2" startPc="268436457"/>
+<entry arg="true" endPc="268436623" name="newBpm" stackId="1" startPc="268436601"/>
+<entry arg="true" endPc="268436636" name="dc" stackId="1" startPc="268436624"/>
+</localVars>
+<deviceInfo deviceVersion="45fe3cbb0de8ea0a70e12628d2697915f1272301" partNumber="006-B4375-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="reset_bpm"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="toggle_vibration"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/BPMTapperApp" offset="134" parentId="globals" symbolId="BPMTapperApp" type="class"/>
+<dataEntry label="globals/Rez" offset="205" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/BPMTapperDelegate" offset="267" parentId="globals" symbolId="BPMTapperDelegate" type="class"/>
+<dataEntry label="globals/BPMTapperView" offset="437" parentId="globals" symbolId="BPMTapperView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="589" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="624" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="659" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="694" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Menus/MainMenu" offset="747" parentId="Menus" symbolId="MainMenu" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="BPMTapperApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435491" name="&lt;init&gt;" parent="Rez" startPc="268435472">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435503" name="&lt;init&gt;" parent="BPMTapperDelegate" startPc="268435492">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435515" name="&lt;init&gt;" parent="BPMTapperView" startPc="268435504">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435518" name="onStart" parent="BPMTapperApp" startPc="268435516">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435578" name="getInitialView" parent="BPMTapperApp" startPc="268435519">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435593" name="initialize" parent="BPMTapperApp" startPc="268435579">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435596" name="onStop" parent="BPMTapperApp" startPc="268435594">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435680" name="vibrate" parent="BPMTapperDelegate" startPc="268435597">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268435867" name="&lt;globals/BPMTapperDelegate/&lt;&gt;recordTap&gt;" parent="BPMTapperDelegate" startPc="268435681">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435950" name="startVibrating" parent="BPMTapperDelegate" startPc="268435868">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435961" name="onTap" parent="BPMTapperDelegate" startPc="268435951">
+<param id="clickEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436050" name="onKey" parent="BPMTapperDelegate" startPc="268435962">
+<param id="keyEvent"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436061" name="onSelect" parent="BPMTapperDelegate" startPc="268436051">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436217" name="calculateBpm" parent="BPMTapperDelegate" startPc="268436062">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436279" name="initialize" parent="BPMTapperDelegate" startPc="268436218">
+<param id="view"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436294" name="stopVibrating" parent="BPMTapperDelegate" startPc="268436280">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="BPMTapperView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436297" name="onLayout" parent="BPMTapperView" startPc="268436295">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436320" name="setVibrating" parent="BPMTapperView" startPc="268436298">
+<param id="vibrating"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436372" name="triggerPulse" parent="BPMTapperView" startPc="268436321">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436394" name="clearPulse" parent="BPMTapperView" startPc="268436373">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436438" name="initialize" parent="BPMTapperView" startPc="268436395">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436453" name="onHide" parent="BPMTapperView" startPc="268436439">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436600" name="onUpdate" parent="BPMTapperView" startPc="268436454">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436623" name="setBpm" parent="BPMTapperView" startPc="268436601">
+<param id="newBpm"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436636" name="MainLayout" parent="Layouts" startPc="268436624">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436648" name="&lt;init&gt;" parent="MainMenu" startPc="268436637">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436753" name="initialize" parent="MainMenu" startPc="268436649">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

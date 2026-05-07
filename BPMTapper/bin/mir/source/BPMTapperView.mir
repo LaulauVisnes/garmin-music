@@ -1,0 +1,273 @@
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [Lang,3,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Timer,4,14,19]; ]
+import Toybox.Timer;
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 6; @symbol_classdef = [BPMTapperView,6,6,19]; @symbol_extends<0> = [WatchUi,6,28,35]; @symbol_extends<1> = [View,6,36,40]; ]
+class BPMTapperView extends WatchUi.View {
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 8; @position = 16; @symbol_vardef = [bpm,8,16,19]; @symbol_type<0> = [Number,8,23,29]; ]
+    private
+    var bpm as Number = 0;
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 9; @position = 16; @symbol_vardef = [isVibrating,9,16,27]; @symbol_type<0> = [Boolean,9,31,38]; ]
+    private
+    var isVibrating as Boolean = false;
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 10; @position = 16; @symbol_vardef = [showPulse,10,16,25]; @symbol_type<0> = [Boolean,10,29,36]; ]
+    private
+    var showPulse as Boolean = false;
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 11; @position = 16; @symbol_vardef = [pulseTimer,11,16,26]; @symbol_type<0> = [Timer,11,30,35]; @symbol_type<1> = [Timer,11,36,41]; ]
+    private
+    var pulseTimer as Timer.Timer;
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 13; @symbol_functiondef = [initialize,13,13,23]; ]
+    function initialize() as Void {
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_13_26_16_4_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 14 8 ]
+        symbol [ View %tmp.2 14 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 14 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 15 8 ]
+        symbol [ Timer %tmp.6 15 25 30 ];
+        %tmp.6 = getm $.Toybox.Timer;
+        symbol [ Timer %tmp.7 15 31 36 ];
+        %tmp.7 = getv function ? %tmp.6 :Timer;
+        %tmp.4 = newc %tmp.7 ();
+        symbol [ pulseTimer ? 15 8 18 ];
+        putv self :pulseTimer %tmp.4;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_13_26_16_4_stop:
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 18; @symbol_functiondef = [onLayout,18,13,21]; @symbol_param<0> = [dc,18,22,24]; @symbol_param<0>_type<0> = [Dc,18,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 21; @symbol_functiondef = [onShow,21,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 24; @symbol_functiondef = [onHide,24,13,19]; ]
+    function onHide() as Void {
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_24_30_26_4_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 25 8 ]
+        symbol [ pulseTimer %tmp.2 25 8 18 ];
+        %tmp.2 = getv ? :pulseTimer;
+        symbol [ stop %tmp.3 25 19 23 ];
+        %tmp.3 = getv function %tmp.2 :stop;
+        invoke %tmp.2 %tmp.3();
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_24_30_26_4_stop:
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 28; @symbol_functiondef = [onUpdate,28,13,21]; @symbol_param<0> = [dc,28,22,24]; @symbol_param<0>_type<0> = [Dc,28,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_28_40_40_4_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 29 8 ]
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_29_8_33_8_if_stmt:
+        symbol [ showPulse %tmp.2 29 12 21 ];
+        %tmp.2 = getv ? :showPulse;
+        bf %tmp.2 @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_29_8_33_8_if_else_false;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_29_8_33_8_if_true:
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_29_23_31_8_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 30 12 ]
+        %tmp.3 = lgetv %dc;
+        symbol [ dc %tmp.3 30 12 14 ];
+        symbol [ setColor %tmp.4 30 15 23 ];
+        %tmp.4 = getv function %tmp.3 :setColor;
+        symbol [ Graphics %tmp.5 30 24 32 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GREEN %tmp.6 30 33 47 ];
+        %tmp.6 = getv %tmp.5 :COLOR_DK_GREEN;
+        symbol [ Graphics %tmp.7 30 49 57 ];
+        %tmp.7 = getm $.Toybox.Graphics;
+        symbol [ COLOR_DK_GREEN %tmp.8 30 58 72 ];
+        %tmp.8 = getv %tmp.7 :COLOR_DK_GREEN;
+        invoke %tmp.3 %tmp.4(%tmp.6, %tmp.8);
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_29_23_31_8_stop:
+        goto @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_29_8_33_8_if_end;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_29_8_33_8_if_else_false:
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_31_15_33_8_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 32 12 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 32 12 14 ];
+        symbol [ setColor %tmp.10 32 15 23 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Graphics %tmp.11 32 24 32 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.12 32 33 44 ];
+        %tmp.12 = getv %tmp.11 :COLOR_BLACK;
+        symbol [ Graphics %tmp.13 32 46 54 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.14 32 55 66 ];
+        %tmp.14 = getv %tmp.13 :COLOR_BLACK;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_31_15_33_8_stop:
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_29_8_33_8_if_end:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 34 8 ]
+        %tmp.15 = lgetv %dc;
+        symbol [ dc %tmp.15 34 8 10 ];
+        symbol [ clear %tmp.16 34 11 16 ];
+        %tmp.16 = getv function %tmp.15 :clear;
+        invoke %tmp.15 %tmp.16();
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 36 8 ]
+        [ "_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_28_40_40_4_start" "_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_28_40_40_4_stop" ]
+        %text.1 = local;
+        symbol [ text %text.1 36 12 16 ];
+        symbol [ bpm %tmp.18 36 19 22 ];
+        %tmp.18 = getv ? :bpm;
+        symbol [ toString %tmp.19 36 23 31 ];
+        %tmp.19 = getv function %tmp.18 :toString;
+        %tmp.20 = invoke %tmp.18 %tmp.19();
+        %tmp.21 = " BPM\n\n";
+        %tmp.22 = add %tmp.20 %tmp.21;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_36_50_36_82_begin:
+        symbol [ isVibrating %tmp.24 36 50 61 ];
+        %tmp.24 = getv ? :isVibrating;
+        bf %tmp.24 @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_36_50_36_82_else_false;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_36_50_36_82_true:
+        %tmp.25 = "Vibration: ON";
+        push %tmp.25;
+        goto @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_36_50_36_82_end;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_36_50_36_82_else_false:
+        %tmp.26 = "Vibration: OFF";
+        push %tmp.26;
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_36_50_36_82_end:
+        %tmp.27 = phi [%tmp.24 @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_36_50_36_82_begin] [%tmp.25 @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_36_50_36_82_true] [%tmp.26 @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_36_50_36_82_else_false] [%tmp.27 @_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_36_50_36_82_end];
+        %tmp.28 = add %tmp.22 %tmp.27;
+        lputv %text.1 %tmp.28;
+        symbol [ text %text.1 36 12 16 ];
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 38 8 ]
+        %tmp.29 = lgetv %dc;
+        symbol [ dc %tmp.29 38 8 10 ];
+        symbol [ setColor %tmp.30 38 11 19 ];
+        %tmp.30 = getv function %tmp.29 :setColor;
+        symbol [ Graphics %tmp.31 38 20 28 ];
+        %tmp.31 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.32 38 29 40 ];
+        %tmp.32 = getv %tmp.31 :COLOR_WHITE;
+        symbol [ Graphics %tmp.33 38 42 50 ];
+        %tmp.33 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.34 38 51 68 ];
+        %tmp.34 = getv %tmp.33 :COLOR_TRANSPARENT;
+        invoke %tmp.29 %tmp.30(%tmp.32, %tmp.34);
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 39 8 ]
+        %tmp.35 = lgetv %dc;
+        symbol [ dc %tmp.35 39 8 10 ];
+        symbol [ drawText %tmp.36 39 11 19 ];
+        %tmp.36 = getv function %tmp.35 :drawText;
+        %tmp.37 = lgetv %dc;
+        symbol [ dc %tmp.37 39 20 22 ];
+        symbol [ getWidth %tmp.38 39 23 31 ];
+        %tmp.38 = getv function %tmp.37 :getWidth;
+        %tmp.39 = invoke %tmp.37 %tmp.38();
+        %tmp.40 = 2;
+        %tmp.41 = div %tmp.39 %tmp.40;
+        %tmp.42 = lgetv %dc;
+        symbol [ dc %tmp.42 39 39 41 ];
+        symbol [ getHeight %tmp.43 39 42 51 ];
+        %tmp.43 = getv function %tmp.42 :getHeight;
+        %tmp.44 = invoke %tmp.42 %tmp.43();
+        %tmp.45 = 2;
+        %tmp.46 = div %tmp.44 %tmp.45;
+        symbol [ Graphics %tmp.47 39 59 67 ];
+        %tmp.47 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.48 39 68 79 ];
+        %tmp.48 = getv %tmp.47 :FONT_MEDIUM;
+        %tmp.49 = lgetv %text.1;
+        symbol [ text %tmp.49 39 81 85 ];
+        symbol [ Graphics %tmp.50 39 87 95 ];
+        %tmp.50 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.51 39 96 115 ];
+        %tmp.51 = getv %tmp.50 :TEXT_JUSTIFY_CENTER;
+        symbol [ Graphics %tmp.52 39 118 126 ];
+        %tmp.52 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_VCENTER %tmp.53 39 127 147 ];
+        %tmp.53 = getv %tmp.52 :TEXT_JUSTIFY_VCENTER;
+        %tmp.54 = bitor %tmp.51 %tmp.53;
+        invoke %tmp.35 %tmp.36(%tmp.41, %tmp.46, %tmp.48, %tmp.49, %tmp.54);
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_28_40_40_4_stop:
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 42; @symbol_functiondef = [setBpm,42,13,19]; @symbol_param<0> = [newBpm,42,20,26]; @symbol_param<0>_type<0> = [Number,42,30,36]; ]
+    function setBpm(newBpm as Number) as Void {
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_42_46_45_4_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 43 8 ]
+        %tmp.1 = lgetv %newBpm;
+        symbol [ newBpm %tmp.1 43 14 20 ];
+        symbol [ bpm ? 43 8 11 ];
+        putv self :bpm %tmp.1;
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 44 8 ]
+        symbol [ WatchUi %tmp.2 44 8 15 ];
+        %tmp.2 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.3 44 16 29 ];
+        %tmp.3 = getv function %tmp.2 :requestUpdate;
+        invoke %tmp.2 %tmp.3();
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_42_46_45_4_stop:
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 47; @symbol_functiondef = [setVibrating,47,13,25]; @symbol_param<0> = [vibrating,47,26,35]; @symbol_param<0>_type<0> = [Boolean,47,39,46]; ]
+    function setVibrating(vibrating as Boolean) as Void {
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_47_56_50_4_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 48 8 ]
+        %tmp.1 = lgetv %vibrating;
+        symbol [ vibrating %tmp.1 48 22 31 ];
+        symbol [ isVibrating ? 48 8 19 ];
+        putv self :isVibrating %tmp.1;
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 49 8 ]
+        symbol [ WatchUi %tmp.2 49 8 15 ];
+        %tmp.2 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.3 49 16 29 ];
+        %tmp.3 = getv function %tmp.2 :requestUpdate;
+        invoke %tmp.2 %tmp.3();
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_47_56_50_4_stop:
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 52; @symbol_functiondef = [triggerPulse,52,13,25]; ]
+    function triggerPulse() as Void {
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_52_36_56_4_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 53 8 ]
+        %tmp.1 = true;
+        symbol [ showPulse ? 53 8 17 ];
+        putv self :showPulse %tmp.1;
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 54 8 ]
+        symbol [ WatchUi %tmp.2 54 8 15 ];
+        %tmp.2 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.3 54 16 29 ];
+        %tmp.3 = getv function %tmp.2 :requestUpdate;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 55 8 ]
+        symbol [ pulseTimer %tmp.5 55 8 18 ];
+        %tmp.5 = getv ? :pulseTimer;
+        symbol [ start %tmp.6 55 19 24 ];
+        %tmp.6 = getv function %tmp.5 :start;
+        %tmp.7 = self;
+        symbol [ method %tmp.8 55 25 31 ];
+        %tmp.8 = getv function %tmp.7 :method;
+        %tmp.10 = const :clearPulse;
+        symbol [ clearPulse %tmp.10 55 33 43 const ];
+        %tmp.11 = invoke %tmp.7 %tmp.8(%tmp.10);
+        %tmp.12 = 100;
+        %tmp.13 = false;
+        invoke %tmp.5 %tmp.6(%tmp.11, %tmp.12, %tmp.13);
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_52_36_56_4_stop:
+    }
+    [ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 58; @symbol_functiondef = [clearPulse,58,13,23]; ]
+    function clearPulse() as Void {
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_58_34_61_4_start:
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 59 8 ]
+        %tmp.1 = false;
+        symbol [ showPulse ? 59 8 17 ];
+        putv self :showPulse %tmp.1;
+[ "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc" 60 8 ]
+        symbol [ WatchUi %tmp.2 60 8 15 ];
+        %tmp.2 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.3 60 16 29 ];
+        %tmp.3 = getv function %tmp.2 :requestUpdate;
+        invoke %tmp.2 %tmp.3();
+_Users_olibx_OlibGarmin_BPMTapper_source_BPMTapperView_mc_58_34_61_4_stop:
+    }
+}
+[ @file = "/Users/olibx/OlibGarmin/BPMTapper/source/BPMTapperView.mc"; @line = 1; ]
+<init> {
+}
